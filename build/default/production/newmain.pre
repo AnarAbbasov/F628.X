@@ -847,6 +847,26 @@ extern __bank0 __bit __powerdown;
 extern __bank0 __bit __timeout;
 
 # 28 "newmain.c"
+void dot()
+{
+PORTAbits.RA1=1;
+_delay((unsigned long)((50)*(4000000/4000.0)));
+PORTAbits.RA1=0;
+return ;
+}
+
+
+void dash()
+{
+PORTAbits.RA1=1;
+_delay((unsigned long)((200)*(4000000/4000.0)));
+PORTAbits.RA1=0;
+return ;
+}
+
+
+
+
 void main(void) {
 
 TRISB = 0x00;
@@ -857,11 +877,8 @@ int i=100;
 while(1)
 {
 
-PORTAbits.RA1=1;
-_delay((unsigned long)((i)*(4000000/4000.0)));
-PORTAbits.RA1=0;
-
-
+dot();
+dash();
 
 }
 

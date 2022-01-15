@@ -25,21 +25,38 @@
 
 #include <xc.h>
 
+void dot()
+{
+ PORTAbits.RA1=1;
+ __delay_ms(50);
+PORTAbits.RA1=0;
+return ;
+}
+
+
+void dash()
+{
+ PORTAbits.RA1=1;
+ __delay_ms(200);
+PORTAbits.RA1=0;
+return ;
+}
+
+
+
+
 void main(void) {
    
      TRISB = 0x00;
     PORTB = 0x00;
     TRISA &= ~0x03;
     PORTA &= ~0x03;
-    int i=100;
+    
     while(1)
     {
        /**/
-        PORTAbits.RA1=1;
-        __delay_ms(i);
-        PORTAbits.RA1=0;
-        
-    
+        dot();
+        dash();
     
     }
     

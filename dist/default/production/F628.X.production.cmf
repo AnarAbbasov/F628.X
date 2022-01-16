@@ -11,7 +11,7 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\USER1~1\AppData\Local\Temp\s7ko.obj
+$C:\Users\USER1~1\AppData\Local\Temp\s8ks.obj
 end_init CODE 0 0 0 1 2
 config CONFIG 0 2007 2007 1 2
 $dist/default/production\F628.X.production.obj
@@ -61,11 +61,11 @@ STRING 1-5D1 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\F628.X.production.obj
-7FE cinit CODE >136:C:\Users\USER1~1\AppData\Local\Temp\s7ko.
-7FE cinit CODE >139:C:\Users\USER1~1\AppData\Local\Temp\s7ko.
-7FE cinit CODE >145:C:\Users\USER1~1\AppData\Local\Temp\s7ko.
-7FE cinit CODE >147:C:\Users\USER1~1\AppData\Local\Temp\s7ko.
-7FF cinit CODE >148:C:\Users\USER1~1\AppData\Local\Temp\s7ko.
+7FE cinit CODE >136:C:\Users\USER1~1\AppData\Local\Temp\s8ks.
+7FE cinit CODE >139:C:\Users\USER1~1\AppData\Local\Temp\s8ks.
+7FE cinit CODE >145:C:\Users\USER1~1\AppData\Local\Temp\s8ks.
+7FE cinit CODE >147:C:\Users\USER1~1\AppData\Local\Temp\s8ks.
+7FF cinit CODE >148:C:\Users\USER1~1\AppData\Local\Temp\s8ks.
 633 text4 CODE >62:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\float.c
 633 text4 CODE >64:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\float.c
 63B text4 CODE >65:C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\float.c
@@ -173,20 +173,20 @@ __Heeprom_data 0 0 EEDATA 3 eeprom_data -
 __CFG_MCLRE$ON 0 0 ABS 0 - dist/default/production\F628.X.production.obj
 main@i 42 0 BANK0 1 cstackBANK0 dist/default/production\F628.X.production.obj
 __Hstrings 0 0 ABS 0 strings -
-___sp 0 0 STACK 2 stack C:\Users\USER1~1\AppData\Local\Temp\s7ko.obj
+___sp 0 0 STACK 2 stack C:\Users\USER1~1\AppData\Local\Temp\s8ks.obj
 _main BE2 0 CODE 0 maintext dist/default/production\F628.X.production.obj
 btemp 7E 0 ABS 0 - dist/default/production\F628.X.production.obj
-start 0 0 CODE 0 init C:\Users\USER1~1\AppData\Local\Temp\s7ko.obj
+start 0 0 CODE 0 init C:\Users\USER1~1\AppData\Local\Temp\s8ks.obj
 __size_of___ftmul 0 0 ABS 0 - dist/default/production\F628.X.production.obj
 __size_of___fttol 0 0 ABS 0 - dist/default/production\F628.X.production.obj
 __size_of_main 0 0 ABS 0 - dist/default/production\F628.X.production.obj
 __Hpowerup 0 0 CODE 0 powerup -
-intlevel0 0 0 ENTRY 0 functab C:\Users\USER1~1\AppData\Local\Temp\s7ko.obj
-intlevel1 0 0 ENTRY 0 functab C:\Users\USER1~1\AppData\Local\Temp\s7ko.obj
-intlevel2 0 0 ENTRY 0 functab C:\Users\USER1~1\AppData\Local\Temp\s7ko.obj
-intlevel3 0 0 ENTRY 0 functab C:\Users\USER1~1\AppData\Local\Temp\s7ko.obj
-intlevel4 0 0 ENTRY 0 functab C:\Users\USER1~1\AppData\Local\Temp\s7ko.obj
-intlevel5 0 0 ENTRY 0 functab C:\Users\USER1~1\AppData\Local\Temp\s7ko.obj
+intlevel0 0 0 ENTRY 0 functab C:\Users\USER1~1\AppData\Local\Temp\s8ks.obj
+intlevel1 0 0 ENTRY 0 functab C:\Users\USER1~1\AppData\Local\Temp\s8ks.obj
+intlevel2 0 0 ENTRY 0 functab C:\Users\USER1~1\AppData\Local\Temp\s8ks.obj
+intlevel3 0 0 ENTRY 0 functab C:\Users\USER1~1\AppData\Local\Temp\s8ks.obj
+intlevel4 0 0 ENTRY 0 functab C:\Users\USER1~1\AppData\Local\Temp\s8ks.obj
+intlevel5 0 0 ENTRY 0 functab C:\Users\USER1~1\AppData\Local\Temp\s8ks.obj
 wtemp0 7E 0 ABS 0 - dist/default/production\F628.X.production.obj
 __Hfunctab 0 0 ENTRY 0 functab -
 __Hclrtext 0 0 ABS 0 clrtext -
@@ -207,7 +207,7 @@ ___fttol@lval 39 0 BANK0 1 cstackBANK0 dist/default/production\F628.X.production
 ___ftpack C66 0 CODE 0 text4 dist/default/production\F628.X.production.obj
 ___ftpack@arg 70 0 COMMON 1 cstackCOMMON dist/default/production\F628.X.production.obj
 ___ftpack@exp 73 0 COMMON 1 cstackCOMMON dist/default/production\F628.X.production.obj
-___int_sp 0 0 STACK 2 stack C:\Users\USER1~1\AppData\Local\Temp\s7ko.obj
+___int_sp 0 0 STACK 2 stack C:\Users\USER1~1\AppData\Local\Temp\s8ks.obj
 __end_of___ftpack D3E 0 CODE 0 text4 dist/default/production\F628.X.production.obj
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
@@ -252,7 +252,7 @@ __S3 0 0 ABS 0 - -
 ___awtoft@c 78 0 COMMON 1 cstackCOMMON dist/default/production\F628.X.production.obj
 __CFG_BOREN$ON 0 0 ABS 0 - dist/default/production\F628.X.production.obj
 __Lintentry 0 0 CODE 0 intentry -
-reset_vec 0 0 CODE 0 reset_vec C:\Users\USER1~1\AppData\Local\Temp\s7ko.obj
+reset_vec 0 0 CODE 0 reset_vec C:\Users\USER1~1\AppData\Local\Temp\s8ks.obj
 ?___awtoft 78 0 COMMON 1 cstackCOMMON dist/default/production\F628.X.production.obj
 ___ftmul E5A 0 CODE 0 text2 dist/default/production\F628.X.production.obj
 ___fttol D3E 0 CODE 0 text1 dist/default/production\F628.X.production.obj
@@ -262,8 +262,8 @@ __Lconfig 400E 0 CONFIG 0 config -
 ?___ftpack 70 0 COMMON 1 cstackCOMMON dist/default/production\F628.X.production.obj
 __CFG_CP$OFF 0 0 ABS 0 - dist/default/production\F628.X.production.obj
 __CFG_FOSC$EXTRCCLK 0 0 ABS 0 - dist/default/production\F628.X.production.obj
-stackhi 0 0 ABS 0 - C:\Users\USER1~1\AppData\Local\Temp\s7ko.obj
-stacklo 0 0 ABS 0 - C:\Users\USER1~1\AppData\Local\Temp\s7ko.obj
+stackhi 0 0 ABS 0 - C:\Users\USER1~1\AppData\Local\Temp\s8ks.obj
+stacklo 0 0 ABS 0 - C:\Users\USER1~1\AppData\Local\Temp\s8ks.obj
 __Lspace_0 0 0 ABS 0 - -
 __Lspace_1 0 0 ABS 0 - -
 __Lspace_2 0 0 ABS 0 - -

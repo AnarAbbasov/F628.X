@@ -57,6 +57,14 @@ void main(void) {
     while(1)
     {
        /**/
+        dash(); 
+        __delay_ms(1000)
+        dash(); 
+        __delay_ms(1000)
+        dot();  
+        __delay_ms(1000)
+        dash();
+        __delay_ms(1000)
         
         dash();               
         __delay_ms(1000)      ;

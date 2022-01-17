@@ -31,23 +31,33 @@ void main(void) {
     CMCONbits.CM = 0b111;
      TRISBbits.TRISB0 = 0;
       TRISBbits.TRISB1 = 0;
+        TRISBbits.TRISB2 = 0;
+          TRISBbits.TRISB3 = 0;
+      TRISBbits.TRISB4 = 0;
      TRISBbits.TRISB5 = 0;
   
     while(1)
     {
        /**/
         PORTBbits.RB0=1;
-     
+      PORTBbits.RB5=0;
         __delay_ms(1000);
          PORTBbits.RB1=1;
         PORTBbits.RB0=0;
             
      __delay_ms(1000);
-        PORTBbits.RB5=1;
+        PORTBbits.RB2=1;
+        PORTBbits.RB1=0;
          __delay_ms(1000);
-          PORTBbits.RB5=0;
-           PORTBbits.RB1=0;
-     
+          PORTBbits.RB2=0;
+           PORTBbits.RB3=1;
+        __delay_ms(1000);
+          PORTBbits.RB3=0;
+           PORTBbits.RB4=1;
+           __delay_ms(1000);
+          PORTBbits.RB4=0;
+           PORTBbits.RB5=1;
+           __delay_ms(1000);
     }
     
     

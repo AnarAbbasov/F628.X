@@ -11,15 +11,15 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\USER1~1\AppData\Local\Temp\s69c.obj
-end_init CODE 0 0 0 1 2
-config CONFIG 0 2007 2007 1 2
 $dist/default/production\F628.X.production.obj
 cinit CODE 0 7FE 7FE 2 2
 text1 CODE 0 673 673 14 2
 text2 CODE 0 65F 65F 14 2
 maintext CODE 0 687 687 177 2
 cstackCOMMON COMMON 1 70 70 6 1
+$C:\Users\USER1~1\AppData\Local\Temp\sdjg.obj
+end_init CODE 0 0 0 1 2
+config CONFIG 0 2007 2007 1 2
 # %UNUSED Section
 # This section enumerates the unused ranges of each CLASS. Each entry
 # is described on a single line as follows:
@@ -59,11 +59,11 @@ STRING 1-65E 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\F628.X.production.obj
-7FE cinit CODE >129:C:\Users\USER1~1\AppData\Local\Temp\s69c.
-7FE cinit CODE >132:C:\Users\USER1~1\AppData\Local\Temp\s69c.
-7FE cinit CODE >138:C:\Users\USER1~1\AppData\Local\Temp\s69c.
-7FE cinit CODE >140:C:\Users\USER1~1\AppData\Local\Temp\s69c.
-7FF cinit CODE >141:C:\Users\USER1~1\AppData\Local\Temp\s69c.
+7FE cinit CODE >129:C:\Users\USER1~1\AppData\Local\Temp\sdjg.
+7FE cinit CODE >132:C:\Users\USER1~1\AppData\Local\Temp\sdjg.
+7FE cinit CODE >138:C:\Users\USER1~1\AppData\Local\Temp\sdjg.
+7FE cinit CODE >140:C:\Users\USER1~1\AppData\Local\Temp\sdjg.
+7FF cinit CODE >141:C:\Users\USER1~1\AppData\Local\Temp\sdjg.
 65F text2 CODE >38:C:\Users\User 1\MPLABXProjects\F628.X\newmain.c
 65F text2 CODE >42:C:\Users\User 1\MPLABXProjects\F628.X\newmain.c
 662 text2 CODE >43:C:\Users\User 1\MPLABXProjects\F628.X\newmain.c
@@ -148,21 +148,21 @@ __Hspace_2 0 0 ABS 0 - -
 __Hspace_3 0 0 ABS 0 - -
 __Heeprom_data 0 0 EEDATA 3 eeprom_data -
 __Hstrings 0 0 ABS 0 strings -
-___sp 0 0 STACK 2 stack C:\Users\USER1~1\AppData\Local\Temp\s69c.obj
+___sp 0 0 STACK 2 stack C:\Users\USER1~1\AppData\Local\Temp\sdjg.obj
 _dash CBE 0 CODE 0 text2 dist/default/production\F628.X.production.obj
 _main D0E 0 CODE 0 maintext dist/default/production\F628.X.production.obj
 btemp 7E 0 ABS 0 - dist/default/production\F628.X.production.obj
-start 0 0 CODE 0 init C:\Users\USER1~1\AppData\Local\Temp\s69c.obj
+start 0 0 CODE 0 init C:\Users\USER1~1\AppData\Local\Temp\sdjg.obj
 __CFG_BOREN$OFF 0 0 ABS 0 - dist/default/production\F628.X.production.obj
 __size_of_dash 0 0 ABS 0 - dist/default/production\F628.X.production.obj
 __size_of_main 0 0 ABS 0 - dist/default/production\F628.X.production.obj
 __Hpowerup 0 0 CODE 0 powerup -
-intlevel0 0 0 ENTRY 0 functab C:\Users\USER1~1\AppData\Local\Temp\s69c.obj
-intlevel1 0 0 ENTRY 0 functab C:\Users\USER1~1\AppData\Local\Temp\s69c.obj
-intlevel2 0 0 ENTRY 0 functab C:\Users\USER1~1\AppData\Local\Temp\s69c.obj
-intlevel3 0 0 ENTRY 0 functab C:\Users\USER1~1\AppData\Local\Temp\s69c.obj
-intlevel4 0 0 ENTRY 0 functab C:\Users\USER1~1\AppData\Local\Temp\s69c.obj
-intlevel5 0 0 ENTRY 0 functab C:\Users\USER1~1\AppData\Local\Temp\s69c.obj
+intlevel0 0 0 ENTRY 0 functab C:\Users\USER1~1\AppData\Local\Temp\sdjg.obj
+intlevel1 0 0 ENTRY 0 functab C:\Users\USER1~1\AppData\Local\Temp\sdjg.obj
+intlevel2 0 0 ENTRY 0 functab C:\Users\USER1~1\AppData\Local\Temp\sdjg.obj
+intlevel3 0 0 ENTRY 0 functab C:\Users\USER1~1\AppData\Local\Temp\sdjg.obj
+intlevel4 0 0 ENTRY 0 functab C:\Users\USER1~1\AppData\Local\Temp\sdjg.obj
+intlevel5 0 0 ENTRY 0 functab C:\Users\USER1~1\AppData\Local\Temp\sdjg.obj
 _CMCONbits 1F 0 ABS 0 - dist/default/production\F628.X.production.obj
 wtemp0 7E 0 ABS 0 - dist/default/production\F628.X.production.obj
 __Hfunctab 0 0 ENTRY 0 functab -
@@ -171,7 +171,7 @@ __Lmaintext 0 0 ABS 0 maintext -
 __CFG_MCLRE$OFF 0 0 ABS 0 - dist/default/production\F628.X.production.obj
 start_initialization FFC 0 CODE 0 cinit dist/default/production\F628.X.production.obj
 _TRISBbits 86 0 ABS 0 - dist/default/production\F628.X.production.obj
-___int_sp 0 0 STACK 2 stack C:\Users\USER1~1\AppData\Local\Temp\s69c.obj
+___int_sp 0 0 STACK 2 stack C:\Users\USER1~1\AppData\Local\Temp\sdjg.obj
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
 __Hbank2 0 0 ABS 0 bank2 -
@@ -214,14 +214,14 @@ __S3 0 0 ABS 0 - -
 _dot CE6 0 CODE 0 text1 dist/default/production\F628.X.production.obj
 __end_of_dot D0E 0 CODE 0 text1 dist/default/production\F628.X.production.obj
 __Lintentry 0 0 CODE 0 intentry -
-reset_vec 0 0 CODE 0 reset_vec C:\Users\USER1~1\AppData\Local\Temp\s69c.obj
+reset_vec 0 0 CODE 0 reset_vec C:\Users\USER1~1\AppData\Local\Temp\sdjg.obj
 __pmaintext D0E 0 CODE 0 maintext dist/default/production\F628.X.production.obj
 __Lcommon 0 0 ABS 0 common -
 __Lconfig 400E 0 CONFIG 0 config -
 __CFG_CP$OFF 0 0 ABS 0 - dist/default/production\F628.X.production.obj
 __CFG_WDTE$OFF 0 0 ABS 0 - dist/default/production\F628.X.production.obj
-stackhi 0 0 ABS 0 - C:\Users\USER1~1\AppData\Local\Temp\s69c.obj
-stacklo 0 0 ABS 0 - C:\Users\USER1~1\AppData\Local\Temp\s69c.obj
+stackhi 0 0 ABS 0 - C:\Users\USER1~1\AppData\Local\Temp\sdjg.obj
+stacklo 0 0 ABS 0 - C:\Users\USER1~1\AppData\Local\Temp\sdjg.obj
 __CFG_LVP$OFF 0 0 ABS 0 - dist/default/production\F628.X.production.obj
 __Lspace_0 0 0 ABS 0 - -
 __Lspace_1 0 0 ABS 0 - -

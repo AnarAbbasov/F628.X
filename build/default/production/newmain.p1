@@ -625,9 +625,9 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;newmain.c: 30: PORTBbits.RB0=1;
 "30
 [e = . . _PORTBbits 0 0 -> -> 1 `i `uc ]
-[; ;newmain.c: 31: _delay((unsigned long)((500)*(4000000/4000.0)));
+[; ;newmain.c: 31: _delay((unsigned long)((200)*(4000000/4000.0)));
 "31
-[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+[e ( __delay (1 -> * -> -> 200 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 [; ;newmain.c: 32: PORTBbits.RB0=0;
 "32
 [e = . . _PORTBbits 0 0 -> -> 0 `i `uc ]
@@ -649,9 +649,9 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;newmain.c: 42: PORTBbits.RB0=1;
 "42
 [e = . . _PORTBbits 0 0 -> -> 1 `i `uc ]
-[; ;newmain.c: 43: _delay((unsigned long)((1500)*(4000000/4000.0)));
+[; ;newmain.c: 43: _delay((unsigned long)((500)*(4000000/4000.0)));
 "43
-[e ( __delay (1 -> * -> -> 1500 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 [; ;newmain.c: 44: PORTBbits.RB0=0;
 "44
 [e = . . _PORTBbits 0 0 -> -> 0 `i `uc ]
@@ -684,153 +684,153 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;newmain.c: 61: dash();
 "61
 [e ( _dash ..  ]
-[; ;newmain.c: 62: _delay((unsigned long)((1000)*(4000000/4000.0)));
+[; ;newmain.c: 62: _delay((unsigned long)((500)*(4000000/4000.0)));
 "62
-[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 [; ;newmain.c: 63: dot();
 "63
 [e ( _dot ..  ]
-[; ;newmain.c: 64: _delay((unsigned long)((1000)*(4000000/4000.0)));
+[; ;newmain.c: 64: _delay((unsigned long)((500)*(4000000/4000.0)));
 "64
-[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 [; ;newmain.c: 65: dash();
 "65
 [e ( _dash ..  ]
-[; ;newmain.c: 66: _delay((unsigned long)((1000)*(4000000/4000.0)));
+[; ;newmain.c: 66: _delay((unsigned long)((500)*(4000000/4000.0)));
 "66
-[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 [; ;newmain.c: 67: dot();
 "67
 [e ( _dot ..  ]
-[; ;newmain.c: 68: _delay((unsigned long)((1000)*(4000000/4000.0)));
+[; ;newmain.c: 68: _delay((unsigned long)((500)*(4000000/4000.0)));
 "68
-[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 [; ;newmain.c: 69: dash();
 "69
 [e ( _dash ..  ]
-[; ;newmain.c: 70: _delay((unsigned long)((1000)*(4000000/4000.0)));
+[; ;newmain.c: 70: _delay((unsigned long)((500)*(4000000/4000.0)));
 "70
-[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 [; ;newmain.c: 71: dash();
 "71
 [e ( _dash ..  ]
-[; ;newmain.c: 72: _delay((unsigned long)((1000)*(4000000/4000.0)));
+[; ;newmain.c: 72: _delay((unsigned long)((500)*(4000000/4000.0)));
 "72
-[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 [; ;newmain.c: 73: dot();
 "73
 [e ( _dot ..  ]
-[; ;newmain.c: 74: _delay((unsigned long)((1000)*(4000000/4000.0)));
+[; ;newmain.c: 74: _delay((unsigned long)((500)*(4000000/4000.0)));
 "74
-[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 [; ;newmain.c: 75: dash();
 "75
 [e ( _dash ..  ]
-[; ;newmain.c: 76: _delay((unsigned long)((1000)*(4000000/4000.0)));
+[; ;newmain.c: 76: _delay((unsigned long)((500)*(4000000/4000.0)));
 "76
-[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 [; ;newmain.c: 78: dash();
 "78
 [e ( _dash ..  ]
-[; ;newmain.c: 79: _delay((unsigned long)((1000)*(4000000/4000.0))) ;
+[; ;newmain.c: 79: _delay((unsigned long)((500)*(4000000/4000.0))) ;
 "79
-[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 [; ;newmain.c: 80: dot();
 "80
 [e ( _dot ..  ]
-[; ;newmain.c: 81: _delay((unsigned long)((1000)*(4000000/4000.0))) ;
+[; ;newmain.c: 81: _delay((unsigned long)((500)*(4000000/4000.0))) ;
 "81
-[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 [; ;newmain.c: 82: dash();
 "82
 [e ( _dash ..  ]
-[; ;newmain.c: 83: _delay((unsigned long)((1000)*(4000000/4000.0))) ;
+[; ;newmain.c: 83: _delay((unsigned long)((500)*(4000000/4000.0))) ;
 "83
-[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 [; ;newmain.c: 84: dash();
 "84
 [e ( _dash ..  ]
-[; ;newmain.c: 85: _delay((unsigned long)((1000)*(4000000/4000.0))) ;
+[; ;newmain.c: 85: _delay((unsigned long)((500)*(4000000/4000.0))) ;
 "85
-[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 [; ;newmain.c: 86: dash();
 "86
 [e ( _dash ..  ]
-[; ;newmain.c: 87: _delay((unsigned long)((1000)*(4000000/4000.0))) ;
+[; ;newmain.c: 87: _delay((unsigned long)((500)*(4000000/4000.0))) ;
 "87
-[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 [; ;newmain.c: 88: dot();
 "88
 [e ( _dot ..  ]
-[; ;newmain.c: 89: _delay((unsigned long)((1000)*(4000000/4000.0))) ;
+[; ;newmain.c: 89: _delay((unsigned long)((500)*(4000000/4000.0))) ;
 "89
-[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 [; ;newmain.c: 90: dash();
 "90
 [e ( _dash ..  ]
-[; ;newmain.c: 91: _delay((unsigned long)((1000)*(4000000/4000.0))) ;
+[; ;newmain.c: 91: _delay((unsigned long)((500)*(4000000/4000.0))) ;
 "91
-[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 [; ;newmain.c: 92: dash();
 "92
 [e ( _dash ..  ]
-[; ;newmain.c: 93: _delay((unsigned long)((1000)*(4000000/4000.0))) ;
+[; ;newmain.c: 93: _delay((unsigned long)((500)*(4000000/4000.0))) ;
 "93
-[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 [; ;newmain.c: 94: dot();
 "94
 [e ( _dot ..  ]
-[; ;newmain.c: 95: _delay((unsigned long)((1000)*(4000000/4000.0))) ;
+[; ;newmain.c: 95: _delay((unsigned long)((500)*(4000000/4000.0))) ;
 "95
-[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 [; ;newmain.c: 96: dot();
 "96
 [e ( _dot ..  ]
-[; ;newmain.c: 97: _delay((unsigned long)((1000)*(4000000/4000.0))) ;
+[; ;newmain.c: 97: _delay((unsigned long)((500)*(4000000/4000.0))) ;
 "97
-[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 [; ;newmain.c: 98: dot();
 "98
 [e ( _dot ..  ]
-[; ;newmain.c: 99: _delay((unsigned long)((1000)*(4000000/4000.0))) ;
+[; ;newmain.c: 99: _delay((unsigned long)((500)*(4000000/4000.0))) ;
 "99
-[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 [; ;newmain.c: 100: dot();
 "100
 [e ( _dot ..  ]
-[; ;newmain.c: 101: _delay((unsigned long)((1000)*(4000000/4000.0))) ;
+[; ;newmain.c: 101: _delay((unsigned long)((500)*(4000000/4000.0))) ;
 "101
-[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 [; ;newmain.c: 102: dash();
 "102
 [e ( _dash ..  ]
-[; ;newmain.c: 103: _delay((unsigned long)((1000)*(4000000/4000.0))) ;
+[; ;newmain.c: 103: _delay((unsigned long)((500)*(4000000/4000.0))) ;
 "103
-[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 [; ;newmain.c: 104: dot();
 "104
 [e ( _dot ..  ]
-[; ;newmain.c: 105: _delay((unsigned long)((1000)*(4000000/4000.0))) ;
+[; ;newmain.c: 105: _delay((unsigned long)((500)*(4000000/4000.0))) ;
 "105
-[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 [; ;newmain.c: 106: dash();
 "106
 [e ( _dash ..  ]
-[; ;newmain.c: 107: _delay((unsigned long)((1000)*(4000000/4000.0))) ;
+[; ;newmain.c: 107: _delay((unsigned long)((500)*(4000000/4000.0))) ;
 "107
-[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 [; ;newmain.c: 108: dot();
 "108
 [e ( _dot ..  ]
-[; ;newmain.c: 109: _delay((unsigned long)((1000)*(4000000/4000.0))) ;
+[; ;newmain.c: 109: _delay((unsigned long)((500)*(4000000/4000.0))) ;
 "109
-[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 [; ;newmain.c: 110: dash();
 "110
 [e ( _dash ..  ]
-[; ;newmain.c: 111: _delay((unsigned long)((1000)*(4000000/4000.0))) ;
+[; ;newmain.c: 111: _delay((unsigned long)((500)*(4000000/4000.0))) ;
 "111
-[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 [; ;newmain.c: 112: dash();
 "112
 [e ( _dash ..  ]

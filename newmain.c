@@ -28,7 +28,7 @@ void dot()
  
 
 PORTBbits.RB0=1;
-__delay_ms(500);
+__delay_ms(200);
 PORTBbits.RB0=0;
 
 return ;
@@ -40,7 +40,7 @@ void dash()
 
  
 PORTBbits.RB0=1;
-__delay_ms(1500);
+__delay_ms(500);
  PORTBbits.RB0=0;
 return ;
 }
@@ -59,56 +59,56 @@ void main(void) {
        /**/
         
         dash();
-        __delay_ms(1000);
+        __delay_ms(500);
         dot();
-        __delay_ms(1000);
+        __delay_ms(500);
         dash();
-        __delay_ms(1000);
+        __delay_ms(500);
         dot();
-        __delay_ms(1000);
+        __delay_ms(500);
         dash(); 
-        __delay_ms(1000);
+        __delay_ms(500);
         dash(); 
-        __delay_ms(1000);
+        __delay_ms(500);
         dot();  
-        __delay_ms(1000);
+        __delay_ms(500);
         dash();
-        __delay_ms(1000);
+        __delay_ms(500);
         
         dash();               
-        __delay_ms(1000)      ;
+        __delay_ms(500)      ;
         dot();                /*K*/
-        __delay_ms(1000)      ;
+        __delay_ms(500)      ;
         dash();               
-        __delay_ms(1000)      ;
+        __delay_ms(500)      ;
         dash();                 
-        __delay_ms(1000)      ;
+        __delay_ms(500)      ;
         dash();                 /*G*/
-        __delay_ms(1000)      ;
+        __delay_ms(500)      ;
         dot();                  
-      __delay_ms(1000)      ;
+      __delay_ms(500)      ;
         dash();               
-        __delay_ms(1000)      ;
+        __delay_ms(500)      ;
         dash();               
-        __delay_ms(1000)      ;
+        __delay_ms(500)      ;
         dot();                
-        __delay_ms(1000)      ;/*7*/
+        __delay_ms(500)      ;/*7*/
         dot();                
-        __delay_ms(1000)      ;
+        __delay_ms(500)      ;
         dot();                  
-        __delay_ms(1000)      ;
+        __delay_ms(500)      ;
         dot();                
-        __delay_ms(1000)      ;
+        __delay_ms(500)      ;
         dash();               
-        __delay_ms(1000)      ;/*R*/
+        __delay_ms(500)      ;/*R*/
         dot();                 
-        __delay_ms(1000)      ;
+        __delay_ms(500)      ;
         dash();               
-        __delay_ms(1000)      ;
+        __delay_ms(500)      ;
         dot();              /* N*/
-        __delay_ms(1000)      ;
+        __delay_ms(500)      ;
         dash();               
-        __delay_ms(1000)      ;/*M*/
+        __delay_ms(500)      ;/*M*/
         dash();                
           
          PORTBbits.RB0=0;

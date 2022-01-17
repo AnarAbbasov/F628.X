@@ -1,7 +1,7 @@
 
 
 Microchip Technology PIC LITE Macro Assembler V1.44 build -154322312 
-                                                                                               Sun Jan 16 19:43:49 2022
+                                                                                               Sun Jan 16 20:05:37 2022
 
 Microchip Technology Omniscient Code Generator v1.44 (Free mode) build 201709140600
      1                           	processor	16F628A
@@ -192,12 +192,12 @@ Microchip Technology Omniscient Code Generator v1.44 (Free mode) build 201709140
    178                           ;newmain.c: 61: dash();
    179  068E  265F               	fcall	_dash
    180                           
-   181                           ;newmain.c: 62: _delay((unsigned long)((1000)*(4000000/4000.0)));
-   182  068F  3006               	movlw	6
+   181                           ;newmain.c: 62: _delay((unsigned long)((500)*(4000000/4000.0)));
+   182  068F  3003               	movlw	3
    183  0690  00F5               	movwf	??_main+2
-   184  0691  3013               	movlw	19
+   184  0691  308A               	movlw	138
    185  0692  00F4               	movwf	??_main+1
-   186  0693  30AD               	movlw	173
+   186  0693  3055               	movlw	85
    187  0694  00F3               	movwf	??_main
    188  0695                     u17:	
    189  0695  0BF3               	decfsz	??_main,f
@@ -211,12 +211,12 @@ Microchip Technology Omniscient Code Generator v1.44 (Free mode) build 201709140
    197                           ;newmain.c: 63: dot();
    198  069C  2673               	fcall	_dot
    199                           
-   200                           ;newmain.c: 64: _delay((unsigned long)((1000)*(4000000/4000.0)));
-   201  069D  3006               	movlw	6
+   200                           ;newmain.c: 64: _delay((unsigned long)((500)*(4000000/4000.0)));
+   201  069D  3003               	movlw	3
    202  069E  00F5               	movwf	??_main+2
-   203  069F  3013               	movlw	19
+   203  069F  308A               	movlw	138
    204  06A0  00F4               	movwf	??_main+1
-   205  06A1  30AD               	movlw	173
+   205  06A1  3055               	movlw	85
    206  06A2  00F3               	movwf	??_main
    207  06A3                     u27:	
    208  06A3  0BF3               	decfsz	??_main,f
@@ -230,12 +230,12 @@ Microchip Technology Omniscient Code Generator v1.44 (Free mode) build 201709140
    216                           ;newmain.c: 65: dash();
    217  06AA  265F               	fcall	_dash
    218                           
-   219                           ;newmain.c: 66: _delay((unsigned long)((1000)*(4000000/4000.0)));
-   220  06AB  3006               	movlw	6
+   219                           ;newmain.c: 66: _delay((unsigned long)((500)*(4000000/4000.0)));
+   220  06AB  3003               	movlw	3
    221  06AC  00F5               	movwf	??_main+2
-   222  06AD  3013               	movlw	19
+   222  06AD  308A               	movlw	138
    223  06AE  00F4               	movwf	??_main+1
-   224  06AF  30AD               	movlw	173
+   224  06AF  3055               	movlw	85
    225  06B0  00F3               	movwf	??_main
    226  06B1                     u37:	
    227  06B1  0BF3               	decfsz	??_main,f
@@ -249,12 +249,12 @@ Microchip Technology Omniscient Code Generator v1.44 (Free mode) build 201709140
    235                           ;newmain.c: 67: dot();
    236  06B8  2673               	fcall	_dot
    237                           
-   238                           ;newmain.c: 68: _delay((unsigned long)((1000)*(4000000/4000.0)));
-   239  06B9  3006               	movlw	6
+   238                           ;newmain.c: 68: _delay((unsigned long)((500)*(4000000/4000.0)));
+   239  06B9  3003               	movlw	3
    240  06BA  00F5               	movwf	??_main+2
-   241  06BB  3013               	movlw	19
+   241  06BB  308A               	movlw	138
    242  06BC  00F4               	movwf	??_main+1
-   243  06BD  30AD               	movlw	173
+   243  06BD  3055               	movlw	85
    244  06BE  00F3               	movwf	??_main
    245  06BF                     u47:	
    246  06BF  0BF3               	decfsz	??_main,f
@@ -268,12 +268,12 @@ Microchip Technology Omniscient Code Generator v1.44 (Free mode) build 201709140
    254                           ;newmain.c: 69: dash();
    255  06C6  265F               	fcall	_dash
    256                           
-   257                           ;newmain.c: 70: _delay((unsigned long)((1000)*(4000000/4000.0)));
-   258  06C7  3006               	movlw	6
+   257                           ;newmain.c: 70: _delay((unsigned long)((500)*(4000000/4000.0)));
+   258  06C7  3003               	movlw	3
    259  06C8  00F5               	movwf	??_main+2
-   260  06C9  3013               	movlw	19
+   260  06C9  308A               	movlw	138
    261  06CA  00F4               	movwf	??_main+1
-   262  06CB  30AD               	movlw	173
+   262  06CB  3055               	movlw	85
    263  06CC  00F3               	movwf	??_main
    264  06CD                     u57:	
    265  06CD  0BF3               	decfsz	??_main,f
@@ -287,12 +287,12 @@ Microchip Technology Omniscient Code Generator v1.44 (Free mode) build 201709140
    273                           ;newmain.c: 71: dash();
    274  06D4  265F               	fcall	_dash
    275                           
-   276                           ;newmain.c: 72: _delay((unsigned long)((1000)*(4000000/4000.0)));
-   277  06D5  3006               	movlw	6
+   276                           ;newmain.c: 72: _delay((unsigned long)((500)*(4000000/4000.0)));
+   277  06D5  3003               	movlw	3
    278  06D6  00F5               	movwf	??_main+2
-   279  06D7  3013               	movlw	19
+   279  06D7  308A               	movlw	138
    280  06D8  00F4               	movwf	??_main+1
-   281  06D9  30AD               	movlw	173
+   281  06D9  3055               	movlw	85
    282  06DA  00F3               	movwf	??_main
    283  06DB                     u67:	
    284  06DB  0BF3               	decfsz	??_main,f
@@ -306,12 +306,12 @@ Microchip Technology Omniscient Code Generator v1.44 (Free mode) build 201709140
    292                           ;newmain.c: 73: dot();
    293  06E2  2673               	fcall	_dot
    294                           
-   295                           ;newmain.c: 74: _delay((unsigned long)((1000)*(4000000/4000.0)));
-   296  06E3  3006               	movlw	6
+   295                           ;newmain.c: 74: _delay((unsigned long)((500)*(4000000/4000.0)));
+   296  06E3  3003               	movlw	3
    297  06E4  00F5               	movwf	??_main+2
-   298  06E5  3013               	movlw	19
+   298  06E5  308A               	movlw	138
    299  06E6  00F4               	movwf	??_main+1
-   300  06E7  30AD               	movlw	173
+   300  06E7  3055               	movlw	85
    301  06E8  00F3               	movwf	??_main
    302  06E9                     u77:	
    303  06E9  0BF3               	decfsz	??_main,f
@@ -325,12 +325,12 @@ Microchip Technology Omniscient Code Generator v1.44 (Free mode) build 201709140
    311                           ;newmain.c: 75: dash();
    312  06F0  265F               	fcall	_dash
    313                           
-   314                           ;newmain.c: 76: _delay((unsigned long)((1000)*(4000000/4000.0)));
-   315  06F1  3006               	movlw	6
+   314                           ;newmain.c: 76: _delay((unsigned long)((500)*(4000000/4000.0)));
+   315  06F1  3003               	movlw	3
    316  06F2  00F5               	movwf	??_main+2
-   317  06F3  3013               	movlw	19
+   317  06F3  308A               	movlw	138
    318  06F4  00F4               	movwf	??_main+1
-   319  06F5  30AD               	movlw	173
+   319  06F5  3055               	movlw	85
    320  06F6  00F3               	movwf	??_main
    321  06F7                     u87:	
    322  06F7  0BF3               	decfsz	??_main,f
@@ -344,12 +344,12 @@ Microchip Technology Omniscient Code Generator v1.44 (Free mode) build 201709140
    330                           ;newmain.c: 78: dash();
    331  06FE  265F               	fcall	_dash
    332                           
-   333                           ;newmain.c: 79: _delay((unsigned long)((1000)*(4000000/4000.0))) ;
-   334  06FF  3006               	movlw	6
+   333                           ;newmain.c: 79: _delay((unsigned long)((500)*(4000000/4000.0))) ;
+   334  06FF  3003               	movlw	3
    335  0700  00F5               	movwf	??_main+2
-   336  0701  3013               	movlw	19
+   336  0701  308A               	movlw	138
    337  0702  00F4               	movwf	??_main+1
-   338  0703  30AD               	movlw	173
+   338  0703  3055               	movlw	85
    339  0704  00F3               	movwf	??_main
    340  0705                     u97:	
    341  0705  0BF3               	decfsz	??_main,f
@@ -363,12 +363,12 @@ Microchip Technology Omniscient Code Generator v1.44 (Free mode) build 201709140
    349                           ;newmain.c: 80: dot();
    350  070C  2673               	fcall	_dot
    351                           
-   352                           ;newmain.c: 81: _delay((unsigned long)((1000)*(4000000/4000.0))) ;
-   353  070D  3006               	movlw	6
+   352                           ;newmain.c: 81: _delay((unsigned long)((500)*(4000000/4000.0))) ;
+   353  070D  3003               	movlw	3
    354  070E  00F5               	movwf	??_main+2
-   355  070F  3013               	movlw	19
+   355  070F  308A               	movlw	138
    356  0710  00F4               	movwf	??_main+1
-   357  0711  30AD               	movlw	173
+   357  0711  3055               	movlw	85
    358  0712  00F3               	movwf	??_main
    359  0713                     u107:	
    360  0713  0BF3               	decfsz	??_main,f
@@ -382,12 +382,12 @@ Microchip Technology Omniscient Code Generator v1.44 (Free mode) build 201709140
    368                           ;newmain.c: 82: dash();
    369  071A  265F               	fcall	_dash
    370                           
-   371                           ;newmain.c: 83: _delay((unsigned long)((1000)*(4000000/4000.0))) ;
-   372  071B  3006               	movlw	6
+   371                           ;newmain.c: 83: _delay((unsigned long)((500)*(4000000/4000.0))) ;
+   372  071B  3003               	movlw	3
    373  071C  00F5               	movwf	??_main+2
-   374  071D  3013               	movlw	19
+   374  071D  308A               	movlw	138
    375  071E  00F4               	movwf	??_main+1
-   376  071F  30AD               	movlw	173
+   376  071F  3055               	movlw	85
    377  0720  00F3               	movwf	??_main
    378  0721                     u117:	
    379  0721  0BF3               	decfsz	??_main,f
@@ -401,12 +401,12 @@ Microchip Technology Omniscient Code Generator v1.44 (Free mode) build 201709140
    387                           ;newmain.c: 84: dash();
    388  0728  265F               	fcall	_dash
    389                           
-   390                           ;newmain.c: 85: _delay((unsigned long)((1000)*(4000000/4000.0))) ;
-   391  0729  3006               	movlw	6
+   390                           ;newmain.c: 85: _delay((unsigned long)((500)*(4000000/4000.0))) ;
+   391  0729  3003               	movlw	3
    392  072A  00F5               	movwf	??_main+2
-   393  072B  3013               	movlw	19
+   393  072B  308A               	movlw	138
    394  072C  00F4               	movwf	??_main+1
-   395  072D  30AD               	movlw	173
+   395  072D  3055               	movlw	85
    396  072E  00F3               	movwf	??_main
    397  072F                     u127:	
    398  072F  0BF3               	decfsz	??_main,f
@@ -420,12 +420,12 @@ Microchip Technology Omniscient Code Generator v1.44 (Free mode) build 201709140
    406                           ;newmain.c: 86: dash();
    407  0736  265F               	fcall	_dash
    408                           
-   409                           ;newmain.c: 87: _delay((unsigned long)((1000)*(4000000/4000.0))) ;
-   410  0737  3006               	movlw	6
+   409                           ;newmain.c: 87: _delay((unsigned long)((500)*(4000000/4000.0))) ;
+   410  0737  3003               	movlw	3
    411  0738  00F5               	movwf	??_main+2
-   412  0739  3013               	movlw	19
+   412  0739  308A               	movlw	138
    413  073A  00F4               	movwf	??_main+1
-   414  073B  30AD               	movlw	173
+   414  073B  3055               	movlw	85
    415  073C  00F3               	movwf	??_main
    416  073D                     u137:	
    417  073D  0BF3               	decfsz	??_main,f
@@ -439,12 +439,12 @@ Microchip Technology Omniscient Code Generator v1.44 (Free mode) build 201709140
    425                           ;newmain.c: 88: dot();
    426  0744  2673               	fcall	_dot
    427                           
-   428                           ;newmain.c: 89: _delay((unsigned long)((1000)*(4000000/4000.0))) ;
-   429  0745  3006               	movlw	6
+   428                           ;newmain.c: 89: _delay((unsigned long)((500)*(4000000/4000.0))) ;
+   429  0745  3003               	movlw	3
    430  0746  00F5               	movwf	??_main+2
-   431  0747  3013               	movlw	19
+   431  0747  308A               	movlw	138
    432  0748  00F4               	movwf	??_main+1
-   433  0749  30AD               	movlw	173
+   433  0749  3055               	movlw	85
    434  074A  00F3               	movwf	??_main
    435  074B                     u147:	
    436  074B  0BF3               	decfsz	??_main,f
@@ -458,12 +458,12 @@ Microchip Technology Omniscient Code Generator v1.44 (Free mode) build 201709140
    444                           ;newmain.c: 90: dash();
    445  0752  265F               	fcall	_dash
    446                           
-   447                           ;newmain.c: 91: _delay((unsigned long)((1000)*(4000000/4000.0))) ;
-   448  0753  3006               	movlw	6
+   447                           ;newmain.c: 91: _delay((unsigned long)((500)*(4000000/4000.0))) ;
+   448  0753  3003               	movlw	3
    449  0754  00F5               	movwf	??_main+2
-   450  0755  3013               	movlw	19
+   450  0755  308A               	movlw	138
    451  0756  00F4               	movwf	??_main+1
-   452  0757  30AD               	movlw	173
+   452  0757  3055               	movlw	85
    453  0758  00F3               	movwf	??_main
    454  0759                     u157:	
    455  0759  0BF3               	decfsz	??_main,f
@@ -477,12 +477,12 @@ Microchip Technology Omniscient Code Generator v1.44 (Free mode) build 201709140
    463                           ;newmain.c: 92: dash();
    464  0760  265F               	fcall	_dash
    465                           
-   466                           ;newmain.c: 93: _delay((unsigned long)((1000)*(4000000/4000.0))) ;
-   467  0761  3006               	movlw	6
+   466                           ;newmain.c: 93: _delay((unsigned long)((500)*(4000000/4000.0))) ;
+   467  0761  3003               	movlw	3
    468  0762  00F5               	movwf	??_main+2
-   469  0763  3013               	movlw	19
+   469  0763  308A               	movlw	138
    470  0764  00F4               	movwf	??_main+1
-   471  0765  30AD               	movlw	173
+   471  0765  3055               	movlw	85
    472  0766  00F3               	movwf	??_main
    473  0767                     u167:	
    474  0767  0BF3               	decfsz	??_main,f
@@ -496,12 +496,12 @@ Microchip Technology Omniscient Code Generator v1.44 (Free mode) build 201709140
    482                           ;newmain.c: 94: dot();
    483  076E  2673               	fcall	_dot
    484                           
-   485                           ;newmain.c: 95: _delay((unsigned long)((1000)*(4000000/4000.0))) ;
-   486  076F  3006               	movlw	6
+   485                           ;newmain.c: 95: _delay((unsigned long)((500)*(4000000/4000.0))) ;
+   486  076F  3003               	movlw	3
    487  0770  00F5               	movwf	??_main+2
-   488  0771  3013               	movlw	19
+   488  0771  308A               	movlw	138
    489  0772  00F4               	movwf	??_main+1
-   490  0773  30AD               	movlw	173
+   490  0773  3055               	movlw	85
    491  0774  00F3               	movwf	??_main
    492  0775                     u177:	
    493  0775  0BF3               	decfsz	??_main,f
@@ -515,12 +515,12 @@ Microchip Technology Omniscient Code Generator v1.44 (Free mode) build 201709140
    501                           ;newmain.c: 96: dot();
    502  077C  2673               	fcall	_dot
    503                           
-   504                           ;newmain.c: 97: _delay((unsigned long)((1000)*(4000000/4000.0))) ;
-   505  077D  3006               	movlw	6
+   504                           ;newmain.c: 97: _delay((unsigned long)((500)*(4000000/4000.0))) ;
+   505  077D  3003               	movlw	3
    506  077E  00F5               	movwf	??_main+2
-   507  077F  3013               	movlw	19
+   507  077F  308A               	movlw	138
    508  0780  00F4               	movwf	??_main+1
-   509  0781  30AD               	movlw	173
+   509  0781  3055               	movlw	85
    510  0782  00F3               	movwf	??_main
    511  0783                     u187:	
    512  0783  0BF3               	decfsz	??_main,f
@@ -534,12 +534,12 @@ Microchip Technology Omniscient Code Generator v1.44 (Free mode) build 201709140
    520                           ;newmain.c: 98: dot();
    521  078A  2673               	fcall	_dot
    522                           
-   523                           ;newmain.c: 99: _delay((unsigned long)((1000)*(4000000/4000.0))) ;
-   524  078B  3006               	movlw	6
+   523                           ;newmain.c: 99: _delay((unsigned long)((500)*(4000000/4000.0))) ;
+   524  078B  3003               	movlw	3
    525  078C  00F5               	movwf	??_main+2
-   526  078D  3013               	movlw	19
+   526  078D  308A               	movlw	138
    527  078E  00F4               	movwf	??_main+1
-   528  078F  30AD               	movlw	173
+   528  078F  3055               	movlw	85
    529  0790  00F3               	movwf	??_main
    530  0791                     u197:	
    531  0791  0BF3               	decfsz	??_main,f
@@ -553,12 +553,12 @@ Microchip Technology Omniscient Code Generator v1.44 (Free mode) build 201709140
    539                           ;newmain.c: 100: dot();
    540  0798  2673               	fcall	_dot
    541                           
-   542                           ;newmain.c: 101: _delay((unsigned long)((1000)*(4000000/4000.0))) ;
-   543  0799  3006               	movlw	6
+   542                           ;newmain.c: 101: _delay((unsigned long)((500)*(4000000/4000.0))) ;
+   543  0799  3003               	movlw	3
    544  079A  00F5               	movwf	??_main+2
-   545  079B  3013               	movlw	19
+   545  079B  308A               	movlw	138
    546  079C  00F4               	movwf	??_main+1
-   547  079D  30AD               	movlw	173
+   547  079D  3055               	movlw	85
    548  079E  00F3               	movwf	??_main
    549  079F                     u207:	
    550  079F  0BF3               	decfsz	??_main,f
@@ -572,12 +572,12 @@ Microchip Technology Omniscient Code Generator v1.44 (Free mode) build 201709140
    558                           ;newmain.c: 102: dash();
    559  07A6  265F               	fcall	_dash
    560                           
-   561                           ;newmain.c: 103: _delay((unsigned long)((1000)*(4000000/4000.0))) ;
-   562  07A7  3006               	movlw	6
+   561                           ;newmain.c: 103: _delay((unsigned long)((500)*(4000000/4000.0))) ;
+   562  07A7  3003               	movlw	3
    563  07A8  00F5               	movwf	??_main+2
-   564  07A9  3013               	movlw	19
+   564  07A9  308A               	movlw	138
    565  07AA  00F4               	movwf	??_main+1
-   566  07AB  30AD               	movlw	173
+   566  07AB  3055               	movlw	85
    567  07AC  00F3               	movwf	??_main
    568  07AD                     u217:	
    569  07AD  0BF3               	decfsz	??_main,f
@@ -591,12 +591,12 @@ Microchip Technology Omniscient Code Generator v1.44 (Free mode) build 201709140
    577                           ;newmain.c: 104: dot();
    578  07B4  2673               	fcall	_dot
    579                           
-   580                           ;newmain.c: 105: _delay((unsigned long)((1000)*(4000000/4000.0))) ;
-   581  07B5  3006               	movlw	6
+   580                           ;newmain.c: 105: _delay((unsigned long)((500)*(4000000/4000.0))) ;
+   581  07B5  3003               	movlw	3
    582  07B6  00F5               	movwf	??_main+2
-   583  07B7  3013               	movlw	19
+   583  07B7  308A               	movlw	138
    584  07B8  00F4               	movwf	??_main+1
-   585  07B9  30AD               	movlw	173
+   585  07B9  3055               	movlw	85
    586  07BA  00F3               	movwf	??_main
    587  07BB                     u227:	
    588  07BB  0BF3               	decfsz	??_main,f
@@ -610,12 +610,12 @@ Microchip Technology Omniscient Code Generator v1.44 (Free mode) build 201709140
    596                           ;newmain.c: 106: dash();
    597  07C2  265F               	fcall	_dash
    598                           
-   599                           ;newmain.c: 107: _delay((unsigned long)((1000)*(4000000/4000.0))) ;
-   600  07C3  3006               	movlw	6
+   599                           ;newmain.c: 107: _delay((unsigned long)((500)*(4000000/4000.0))) ;
+   600  07C3  3003               	movlw	3
    601  07C4  00F5               	movwf	??_main+2
-   602  07C5  3013               	movlw	19
+   602  07C5  308A               	movlw	138
    603  07C6  00F4               	movwf	??_main+1
-   604  07C7  30AD               	movlw	173
+   604  07C7  3055               	movlw	85
    605  07C8  00F3               	movwf	??_main
    606  07C9                     u237:	
    607  07C9  0BF3               	decfsz	??_main,f
@@ -629,12 +629,12 @@ Microchip Technology Omniscient Code Generator v1.44 (Free mode) build 201709140
    615                           ;newmain.c: 108: dot();
    616  07D0  2673               	fcall	_dot
    617                           
-   618                           ;newmain.c: 109: _delay((unsigned long)((1000)*(4000000/4000.0))) ;
-   619  07D1  3006               	movlw	6
+   618                           ;newmain.c: 109: _delay((unsigned long)((500)*(4000000/4000.0))) ;
+   619  07D1  3003               	movlw	3
    620  07D2  00F5               	movwf	??_main+2
-   621  07D3  3013               	movlw	19
+   621  07D3  308A               	movlw	138
    622  07D4  00F4               	movwf	??_main+1
-   623  07D5  30AD               	movlw	173
+   623  07D5  3055               	movlw	85
    624  07D6  00F3               	movwf	??_main
    625  07D7                     u247:	
    626  07D7  0BF3               	decfsz	??_main,f
@@ -648,12 +648,12 @@ Microchip Technology Omniscient Code Generator v1.44 (Free mode) build 201709140
    634                           ;newmain.c: 110: dash();
    635  07DE  265F               	fcall	_dash
    636                           
-   637                           ;newmain.c: 111: _delay((unsigned long)((1000)*(4000000/4000.0))) ;
-   638  07DF  3006               	movlw	6
+   637                           ;newmain.c: 111: _delay((unsigned long)((500)*(4000000/4000.0))) ;
+   638  07DF  3003               	movlw	3
    639  07E0  00F5               	movwf	??_main+2
-   640  07E1  3013               	movlw	19
+   640  07E1  308A               	movlw	138
    641  07E2  00F4               	movwf	??_main+1
-   642  07E3  30AD               	movlw	173
+   642  07E3  3055               	movlw	85
    643  07E4  00F3               	movwf	??_main
    644  07E5                     u257:	
    645  07E5  0BF3               	decfsz	??_main,f
@@ -736,12 +736,12 @@ Microchip Technology Omniscient Code Generator v1.44 (Free mode) build 201709140
    722  0674  1303               	bcf	3,6	;RP1=0, select bank0
    723  0675  1406               	bsf	6,0	;volatile
    724                           
-   725                           ;newmain.c: 31: _delay((unsigned long)((500)*(4000000/4000.0)));
-   726  0676  3003               	movlw	3
+   725                           ;newmain.c: 31: _delay((unsigned long)((200)*(4000000/4000.0)));
+   726  0676  3002               	movlw	2
    727  0677  00F2               	movwf	??_dot+2
-   728  0678  308A               	movlw	138
+   728  0678  3004               	movlw	4
    729  0679  00F1               	movwf	??_dot+1
-   730  067A  3055               	movlw	85
+   730  067A  30BA               	movlw	186
    731  067B  00F0               	movwf	??_dot
    732  067C                     u277:	
    733  067C  0BF0               	decfsz	??_dot,f
@@ -750,7 +750,7 @@ Microchip Technology Omniscient Code Generator v1.44 (Free mode) build 201709140
    736  067F  2E7C               	goto	u277
    737  0680  0BF2               	decfsz	??_dot+2,f
    738  0681  2E7C               	goto	u277
-   739  0682  2E83               	nop2
+   739  0682  0000               	nop
    740                           
    741                           ;newmain.c: 32: PORTBbits.RB0=0;
    742  0683  1283               	bcf	3,5	;RP0=0, select bank0
@@ -804,12 +804,12 @@ Microchip Technology Omniscient Code Generator v1.44 (Free mode) build 201709140
    790  0660  1303               	bcf	3,6	;RP1=0, select bank0
    791  0661  1406               	bsf	6,0	;volatile
    792                           
-   793                           ;newmain.c: 43: _delay((unsigned long)((1500)*(4000000/4000.0)));
-   794  0662  3008               	movlw	8
+   793                           ;newmain.c: 43: _delay((unsigned long)((500)*(4000000/4000.0)));
+   794  0662  3003               	movlw	3
    795  0663  00F2               	movwf	??_dash+2
-   796  0664  309D               	movlw	157
+   796  0664  308A               	movlw	138
    797  0665  00F1               	movwf	??_dash+1
-   798  0666  3005               	movlw	5
+   798  0666  3055               	movlw	85
    799  0667  00F0               	movwf	??_dash
    800  0668                     u287:	
    801  0668  0BF0               	decfsz	??_dash,f
@@ -920,7 +920,7 @@ DATA                 0      0       0      10        0.0%
 
 
 Microchip Technology PIC Macro Assembler V1.44 build -154322312 
-Symbol Table                                                                                   Sun Jan 16 19:43:49 2022
+Symbol Table                                                                                   Sun Jan 16 20:05:37 2022
 
             __CFG_CP$OFF 0000                       u17 0695                       u27 06A3  
                      u37 06B1                       u47 06BF                       u57 06CD  
